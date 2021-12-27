@@ -12,7 +12,7 @@ ___
 * **Technical Skills**
   + **Database:** MySQL, MSSQL, ORACLE RDBMS, Postgres
   + **Programming language:** Python, RUST, Groovy
-  + **WebServers:** apache2, nginx
+  + **WebServers:** apache2, nginx, IIS
   + **DevOPS:** k8's, docker, openshift, Gitlab Ci/CD
   + **Cloud services:** Azure, AWS, Google Cloud
 
