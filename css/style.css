@@ -12,6 +12,10 @@ body {
       color: azure;
       text-decoration: none;
   }
+  a:hover{
+      
+    color:#09c2ff;
+  }
   header{
       display: flex;
   }
@@ -68,6 +72,10 @@ body {
     display: list-item;
     margin-left: 20px;
     font-size: 20px;
+  }
+  .header_menu li a{
+      
+    color:#09c2ff;
   }
   .text-main ul {
     flex-direction: column;
