@@ -49,14 +49,32 @@ body {
     margin: 0;
     padding: 0;
   }
-  li{
+  .header-menu li{
     display: list-item;
     margin-left: 20px;
     font-size: 20px;
   }
+  .text-main ul {
+    flex-direction: column;
+}
+.text-main li p{
+    margin: 0;
+    padding: 0;
+}
+.text-main li:last-child{
+   margin-bottom: 50px;
+}
+.text-main li li p{
+    margin-left: 20px;
+    padding: 0px 0 5px 50px;
+}
+.text-main li li:first-child{
+    margin-top: 20px;
+}
   .text-divider{
       text-align: end;
       color: azure;
+      margin-top: 4em;
   }
   .line-divider{
     height: 2px;
@@ -70,15 +88,17 @@ body {
   }
   pre{
     background-color: azure;  
+    
+    font-size: 1.2em;
   }
   .code-text{
-    color:#b294bb
+    color:#b294bb;
   }
 .code-dif{
-    color: #de935f
+    color: #de935f;
 }
 .code-var{
-    color:#81a2be
+    color:#81a2be;
 }
 .code-bool{
    color: #dc7069;
