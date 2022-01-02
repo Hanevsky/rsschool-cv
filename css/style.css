@@ -196,8 +196,11 @@ body {
 article img{
     width: 100%;
     image-rendering:pixelated;
+    filter: grayscale(100%);
 }
-
+article img:hover{
+    filter: grayscale(20%);
+}
 
 .article{
     display: block;
