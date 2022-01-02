@@ -137,8 +137,9 @@ body {
   }
   .line-divider{
     height: 1px;
-    width: 98%;
-    margin-bottom: 20px;
+    width: 99%;
+    margin-left: 1%;
+    margin-bottom: 50px;
     background-color: #ffffff;
   }
   .text-main{
