@@ -4,7 +4,7 @@
     text-align: justify;
 }
 body {
-    background-color: #262a2b;
+    background-color: #22282c;
     margin: 10px;
   }
   aside{
@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: white;
     align-items: center;
     margin: 50px -10px -10px -10px;
   }
@@ -29,10 +29,10 @@ body {
     width: auto;
   }
   footer a{
-    color: #262a2b;
+    color: #22282c;
   }
     footer p {
-    color: #262a2b;
+    color: #22282c;
   }
   footer div{
       margin:10px
@@ -47,7 +47,7 @@ body {
       color:#09c2ff;
   }
   a {
-      color: azure;
+      color: white;
       text-decoration: none;
   }
   a:hover{
@@ -132,23 +132,23 @@ body {
     margin-top: 20px;
 }
   .text-divider{
-      text-align: end;
-      color: azure;
-      margin-top: 3.5em;
+    text-align: end;
+    color: white;
+    margin-top: 3.5em;
   }
   .line-divider{
     height: 1px;
     width: 100%;
     margin-bottom: 50px;
-    background-color: #ffffff;
+    background-color: white;
   }
   .text-main{
     font-size: 1.2em;
-    color: azure;
+    color: white;
   }
   pre{
     font-size: 1.2em;
-    color:#ffffff
+    color:white
   }
   .code-text{
     color:#b294bb;
