@@ -120,7 +120,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.text-main li:last-child{
+.text-main li li:last-child{
    margin-bottom: 50px;
 }
 .text-main li li p{
