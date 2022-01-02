@@ -7,9 +7,6 @@ body {
     background-color: #262a2b;
     margin: 10px;
   }
-  article{
-      margin:0 4px;
-  }
   aside{
       margin:0 4px;
   }
@@ -20,7 +17,7 @@ body {
     justify-content: center;
     background-color: #ffffff;
     align-items: center;
-    margin: -10px;
+    margin: 50px -10px -10px -10px;
   }
   footer div{
     display: flex;
@@ -29,6 +26,7 @@ body {
   }
   footer img{
     height: 2em;
+    width: auto;
   }
   footer a{
     color: #262a2b;
@@ -62,8 +60,9 @@ body {
   main{
       display: flex;
   }
-  article{
+  .main{
       width: 70%;
+      margin:0 4px;
   }
   aside{
       width: 30%;
@@ -79,10 +78,10 @@ body {
     text-align: center;
   }
   .header_photo img {
-      border: 0px;
-      border-radius: 50%;
-      height: 320px;
-      width: 320px;
+    border: 2px solid #09c2ff;
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
   }
   .header_menu{
     display: flex;
@@ -99,10 +98,6 @@ body {
       font-size: 2.2em;
       line-height: 1em;
 
-  }
-  .nav{
-      display: flex;
-      flex-direction: column;
   }
   ul{
     display: flex;
@@ -197,4 +192,14 @@ body {
 }
 .bold{
     font-weight: 600;
+}
+article img{
+    width: 100%;
+    image-rendering:pixelated;
+}
+
+
+.article{
+    display: block;
+    width: 100%;
 }
