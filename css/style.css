@@ -1,9 +1,15 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
 body {
     background-color: #262a2b;
   }
   h1 {
     color: #09c2ff;
     text-align: center;
+    
+    font-weight: 100;
   }
   h2 {
       color:#09c2ff;
@@ -13,8 +19,8 @@ body {
       text-decoration: none;
   }
   a:hover{
-      
     color:#09c2ff;
+    font-weight: 600;
   }
   header{
       display: flex;
@@ -100,7 +106,7 @@ body {
       margin-top: 4em;
   }
   .line-divider{
-    height: 2px;
+    height: 1px;
     width: 98%;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -110,9 +116,8 @@ body {
     color: azure;
   }
   pre{
-    background-color: azure;  
-    
     font-size: 1.2em;
+    color:#ffffff
   }
   .code-text{
     color:#b294bb;
@@ -125,4 +130,32 @@ body {
 }
 .code-bool{
    color: #dc7069;
+}
+.contacts{
+    line-height: 1.5em;
+}
+.contacts a{
+    margin-left:2em;
+}
+.svg-insert:before{
+    position: absolute;
+    content: "";
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.2em;
+    height: 1.2em;
+}
+.ico-git:before{
+    background-image: url('../icons/icons8-github.svg');
+}
+.ico-discord:before{
+    background-image: url('../icons/icons8-discord.svg');
+}
+.ico-gmail:before{
+    background-image: url('../icons/icons8-gmail-logo.svg');
+}
+.ico-telega:before{
+    background-image: url('../icons/icons8-telegram-app.svg');
 }
