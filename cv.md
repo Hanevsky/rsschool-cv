@@ -1,6 +1,6 @@
 # Aleksandr Khanevsky
 ___
-![My photo](./assets/photo_portconf19_011.jpg "My photo")
+![My photo](./photos/photo_portconf19_011.jpg "My photo")
 ## About Me
 I have more than 4 years of experience in  Performance Quality Assurance. During this time I have had different projects in multiple industries such as  E-commerce, CRM  and CMS projects, online games, and banking systems. My working experience in performance testing helps provide recommendations on improving the performance of the application server-side. I have experience working in close collaboration with test automation, functional,  development, and DevOps teams.  I have strong technical skills and analytical abilities.
 ___
