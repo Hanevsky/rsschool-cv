@@ -19,7 +19,13 @@ ___
 ___
 ## Code Example
 ```
-Please waiting ...
+function solution(str, ending){
+    if (ending.length > 0){
+        return ending === str.substr(-ending.length);
+    } else {
+        return true
+    }
+} 
 ```
 ___
 ## Experience
