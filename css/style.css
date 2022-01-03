@@ -1,7 +1,8 @@
-* {
+html {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     text-align: justify;
+    scroll-behavior:smooth;
 }
 body {
     background-color: #22282c;
@@ -193,8 +194,12 @@ body {
 .bold{
     font-weight: 600;
 }
+article{
+    margin:5px;
+}
 article img{
     width: 100%;
+    height: auto;
     image-rendering:pixelated;
     filter: grayscale(100%);
 }
@@ -203,6 +208,6 @@ article img:hover{
 }
 
 .article{
-    display: block;
+    display: flex;
     width: 100%;
 }
