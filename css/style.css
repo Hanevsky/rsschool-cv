@@ -81,8 +81,8 @@ body {
   .header_photo img {
     border: 2px solid #09c2ff;
     border-radius: 50%;
-    height: 320px;
-    width: 320px;
+    height: 310px;
+    width: 310px;
   }
   .header_menu{
     display: flex;
@@ -150,7 +150,8 @@ body {
   }
   pre{
     font-size: 1.2em;
-    color:white
+    color:white;
+    overflow: auto;
   }
   .code-text{
     color:#b294bb;
@@ -215,25 +216,38 @@ article img:hover{
 @media screen and (max-width: 1070px) {
 h1{
     font-size: 1.5em;
+    line-height: 1.1em;
 }
 .header-menu li{
     display: list-item;
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 @media screen and (max-width: 920px) {
+ul{
+    justify-content: center;
+}
 header, .container{
     flex-direction: column;
 }
+.header_nav{
+    line-height: 2em;
+}
+.header-menu li{
+    font-size: 1.3em;
+  }
 aside, .main{
     width: 100%;
 }
 .header_nav{
     width: 100%;
     align-items: center;
+    margin-top: 30px;
 }
 .header_photo{
     width: 100%;
 }
+.text-main li li p {
+    padding: 0px 0 5px 10px;
 }
-    }
+}
