@@ -251,3 +251,8 @@ aside, .main{
     padding: 0px 0 5px 10px;
 }
 }
+@media screen and (max-width: 600px) {
+    .article {
+        flex-direction: column;
+    }
+    }
