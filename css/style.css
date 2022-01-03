@@ -4,7 +4,14 @@ html {
 	text-align: justify;
 	scroll-behavior: smooth;
 }
-
+::selection {
+    background-color: #434b50;
+    color: #09c2ff;
+   }
+::-moz-selection {
+    background-color: #434b50;
+    color: #09c2ff;
+   }
 body {
 	background-color: #22282c;
 	margin: 10px;
