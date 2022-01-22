@@ -1,0 +1,17 @@
+name: website deployment
+on: [push]
+jobs:  
+  deploy:    
+    runs-on: loc
+    steps:
+      - uses: actions/checkout@master
+        uses: appleboy/scp-action@master
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.KEY }}
+        with:
+          source: "dest/*"
+          target: "/var/www/localhost/public_html"
+          strip_components: 1
