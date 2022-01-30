@@ -17,7 +17,7 @@ jobs:
     runs-on: self-hosted
     
     steps:
-      - uses: Hanevsky/rsschool-cv@master
+      
       - run: |
           df -h
         name: Run on VM
@@ -25,6 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     container: alpine:3.15
     steps:
+      - uses: Hanevsky/rsschool-cv@gh-pages
       - run: |
           echo '${{env.GITHUB_PATH}}'
           ls /*/*/
