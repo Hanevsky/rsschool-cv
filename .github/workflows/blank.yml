@@ -25,5 +25,4 @@ jobs:
     steps:
       - run: |
           echo ${{env.GITHUB_PATH}}
-          echo ${{GITHUB_PATH}}
         name: Run in container
