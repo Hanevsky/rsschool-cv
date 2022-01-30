@@ -27,5 +27,5 @@ jobs:
     steps:
       - run: |
           echo "path $GITHUB_PATH"
-          ls /home/runner/work/_actions/Hanevsky/rsschool-cv/*/*
+          ls $GITHUB_PATH/*
         name: Run in container
