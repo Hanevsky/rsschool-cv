@@ -15,7 +15,9 @@ on:
 jobs:
   vm:
     runs-on: self-hosted
+    
     steps:
+      - uses: Hanevsky/rsschool-cv@master
       - run: |
           df -h
         name: Run on VM
@@ -25,4 +27,5 @@ jobs:
     steps:
       - run: |
           echo ${{env.GITHUB_PATH}}
+          ls /*/*/
         name: Run in container
