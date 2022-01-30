@@ -25,8 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     container: alpine:3.15
     steps:
-      - uses: Hanevsky/rsschool-cv@gh-pages
       - run: |
           echo '${{env.GITHUB_PATH}}'
-          ls /*/*/
+          ls /home/runner/work/_actions/Hanevsky/rsschool-cv/*/*
         name: Run in container
