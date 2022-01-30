@@ -26,6 +26,6 @@ jobs:
     container: alpine:3.15
     steps:
       - run: |
-          echo '${{env.GITHUB_PATH}}'
+          echo '${{GITHUB_PATH}}'
           ls /home/runner/work/_actions/Hanevsky/rsschool-cv/*/*
         name: Run in container
