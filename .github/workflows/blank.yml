@@ -25,4 +25,6 @@ jobs:
     steps:
       - run: |
           ls /
+          ls /opt/
+          ls /var/
         name: Run in container
