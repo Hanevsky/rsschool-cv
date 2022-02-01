@@ -17,14 +17,7 @@ jobs:
     runs-on: self-hosted
     
     steps:
-      
-      - run: |
-          df -h
-        name: Run on VM
-  container:
-    runs-on: self-hosted
-    container: alpine:3.15
-    steps:
       - name: Start test server
         run: docker-compose up -d main-server
+
 
