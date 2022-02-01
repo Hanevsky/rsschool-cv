@@ -1,0 +1,6 @@
+  main-server:
+    build: ./
+    container_name: main-server
+    image: Hanevsky/main-server
+    ports:
+      - 8080:8080
