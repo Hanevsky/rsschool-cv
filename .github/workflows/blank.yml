@@ -25,6 +25,6 @@ jobs:
     runs-on: self-hosted
     container: alpine:3.15
     steps:
-      - run: |
-          ls $GITHUB_WORKSPACE/*
-        name: Run in container
+      - name: Start test server
+        run: docker-compose up -d main-server
+
