@@ -18,6 +18,8 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
+      - name: ls
+        run: ls ./*/*/
       - name: Start test server
         run: docker build . --file Dockerfile --tag main-server:$(date +%s)
 
