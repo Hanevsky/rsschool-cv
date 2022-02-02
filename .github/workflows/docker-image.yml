@@ -17,6 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: ls command var
-      run: ls /var/*/*
-    - name: ls command home
-      run: ls /home/*/*
+      run: ls /usr/*/*
