@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: Run docker
-      run: docker run --name main-server -p 8080:80 -v /:/usr/share/nginx/html:ro -d nginx
+      run: docker run --name main-server -p 8082:80 -v /:/usr/share/nginx/html:ro -d nginx
