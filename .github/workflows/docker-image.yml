@@ -16,5 +16,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-    - name: ls command var
-      run: ls ./
+    - name: Run docker
+      run: docker run --name main-server -v /:/usr/share/nginx/html:ro -d nginx
