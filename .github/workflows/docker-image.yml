@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker-compose up -d main-server
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Run docker
+      run: docker run --name main-server -v /:/usr/share/nginx/html:ro -d nginx -p 8080:80
