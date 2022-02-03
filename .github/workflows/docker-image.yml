@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Remove old version
+      run: docker rmi nginx:resume
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag nginx:resume
     - name: Run docker
