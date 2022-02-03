@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag resume:$(date +%s)
+      run: docker build . --file Dockerfile --tag nginx:resume
     - name: Run docker
       run: docker run --name nginx-resume -p 8088:80 -v ${{GITHUB.WORKSPACE}}/:/usr/share/nginx/html:ro -d nginx
